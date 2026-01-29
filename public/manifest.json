@@ -1,0 +1,17 @@
+
+{
+  "name": "Asaf Arusi Portfolio",
+  "short_name": "AA Portfolio",
+  "description": "Portfolio website of Asaf Arusi, a computer science student.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#2662d9",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
