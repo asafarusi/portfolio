@@ -1,10 +1,10 @@
 import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import { gsap } from "gsap";
-import { lore, stats, inventory } from "../data/profile";
+import { lore, idcard, stats, inventory } from "../data/profile";
 import { REDUCED } from "../fx/env";
 import { sound } from "../fx/sound";
 
-const MANIFESTO = ["DESIGNER.", "ENGINEER.", "MENACE."];
+const MANIFESTO = ["IDEA", "TO PROD.", "SAME DAY."];
 
 const icons: Record<string, ReactNode> = {
   controller: (
@@ -104,7 +104,7 @@ export default function Character({ onBall }: { onBall: () => void }) {
             <span className={`row${r === 1 ? " outline" : r === 2 ? " acid" : ""}`} key={word} aria-hidden="true">
               {word.split("").map((c, i) => (
                 <span className="char" key={i}>
-                  {c}
+                  {c === " " ? " " : c}
                 </span>
               ))}
             </span>
@@ -118,18 +118,12 @@ export default function Character({ onBall }: { onBall: () => void }) {
               <p key={p}>{p}</p>
             ))}
             <div className="idcard">
-              <div>
-                <small>ORIGIN</small>
-                <strong>IDF · Graphic Designer</strong>
-              </div>
-              <div>
-                <small>TRAINING</small>
-                <strong>BSc CS · HIT</strong>
-              </div>
-              <div>
-                <small>CURRENT</small>
-                <strong className="acid">AI SWE · Dig AI</strong>
-              </div>
+              {idcard.map((f) => (
+                <div key={f.k}>
+                  <small>{f.k}</small>
+                  <strong className={f.hot ? "acid" : undefined}>{f.v}</strong>
+                </div>
+              ))}
             </div>
           </div>
 

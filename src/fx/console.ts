@@ -9,6 +9,7 @@ export function consoleBanner() {
   console.log("%cASAF.EXE", big);
   console.log("%cOh, you open DevTools on portfolios too. Respect.", mono);
   console.log("%cNo template, no page builder. Hand-written TypeScript + GLSL.", mono);
+  console.log("%cIf you're reading the source, consider it the cover letter.", mono);
   console.log("%cCheat code: ↑ ↑ ↓ ↓ ← → ← → B A", hot);
   console.log("%cHiring? → asafarusi2@gmail.com", hot);
 }
