@@ -1,42 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
-    />
-    <title>Asaf Arusi | Software Developer Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio website of Asaf Arusi, a computer science student."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Asaf Arusi · AI Software Engineer</title>
+    <meta name="description" content="Asaf Arusi: AI Software Engineer at Dig AI. Ex-IDF graphic designer, full-stack to bare metal. Serious. Slightly unhinged." />
+    <meta name="theme-color" content="#07070A" />
     <meta name="author" content="Asaf Arusi" />
+    <link rel="canonical" href="https://asafarusi.co.il/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-    <meta
-      property="og:title"
-      content="Asaf Arusi | Software Developer Portfolio"
-    />
-    <meta
-      property="og:description"
-      content="Portfolio website of Asaf Arusi, a computer science student."
-    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/logo.jpg" />
+    <meta property="og:url" content="https://asafarusi.co.il/" />
+    <meta property="og:title" content="Asaf Arusi · AI Software Engineer" />
+    <meta property="og:description" content="Serious. Slightly unhinged. Press start." />
+    <meta property="og:image" content="https://asafarusi.co.il/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <meta name="theme-color" content="#2662d9" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Preload critical assets -->
-    <link rel="preload" as="image" href="/placeholder.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Asaf Arusi",
+        "jobTitle": "AI Software Engineer",
+        "worksFor": { "@type": "Organization", "name": "Dig AI" },
+        "url": "https://asafarusi.co.il",
+        "sameAs": ["https://github.com/asafarusi", "https://www.linkedin.com/in/asafarusi"]
+      }
+    </script>
   </head>
-
   <body>
+    <noscript>
+      <p style="padding:24px;font-family:monospace;color:#e8e8ea">Asaf Arusi: AI Software Engineer at Dig AI. JavaScript is off, so the game won't load. Email: asafarusi2@gmail.com</p>
+    </noscript>
     <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,6 +1,3 @@
-
 User-agent: *
 Allow: /
-
-# Sitemap location
 Sitemap: https://asafarusi.co.il/sitemap.xml
