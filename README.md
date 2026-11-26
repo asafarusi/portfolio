@@ -6,12 +6,19 @@ Source for **[asafarusi.co.il](https://asafarusi.co.il)**, my portfolio. It's on
 
 - **One typeface.** Inter Variable, with tight tracking on display sizes.
 - **One canvas.** True black, `#f5f5f7` text, `#86868b` secondary, and a single blue for links.
-- **Motion that stays out of the way.** Lenis smooth scroll, a slow fade and focus on first paint, a hero that eases back as you scroll, a statement that lights up word by word, and fade-up reveals. Everything animates transform and opacity only.
+- **Motion carries the personality, so the layout doesn't have to.**
+  - The letters of the name flip up and come into focus.
+  - Scrolling away zooms the name toward you as it dissolves.
+  - The statement lights up word by word.
+  - Headings rise out of masks, and hairlines draw themselves in.
+  - Project cards tilt in 3D toward the cursor, with a spotlight and an edge that catches the light.
+  - Buttons are magnetic, and a soft light trails the cursor.
+  - Everything animates only transform, opacity and filter.
 - `prefers-reduced-motion` gets a fully static page.
 
 ## Stack
 
-Vite · React 19 · TypeScript · Lenis. No UI kit and no animation library: the motion is one rAF loop and an IntersectionObserver ([src/motion.ts](src/motion.ts)).
+Vite · React 19 · TypeScript · Lenis. No UI kit and no animation library: the motion is one rAF loop, an IntersectionObserver and CSS transitions ([src/motion.ts](src/motion.ts)).
 
 ## Run
 

@@ -18,15 +18,15 @@ export const hero = {
 
 // Lights up word by word as you scroll.
 export const statement =
-  "The interface you touch. The API behind it. The data underneath. And the intelligence that ties it all together. One engineer, every layer.";
+  "The interface you touch. The API behind it. The data underneath. And the intelligence that ties it all together. I care about every layer.";
 
 export const now = {
-  title: "The only engineer at Dig AI.",
-  body: "That makes me the frontend team, the backend team, DevOps and on-call. I architect, build, ship and run the portal real users log into every day.",
+  title: "Building at Dig AI.",
+  body: "I work across the whole product, from the interface to the infrastructure, and the AI features that run through it. The portal I work on is used by real people every day.",
   aside: "Code review is me arguing with last month’s me. Last month’s me has some explaining to do.",
   facts: [
-    { big: "1", small: "Engineer. Every layer of the stack." },
-    { big: "Same day", small: "From idea to production." },
+    { big: "Full stack", small: "Interface, API, data and infrastructure." },
+    { big: "AI", small: "Built into the product, not bolted on." },
     { big: "BSc", small: "Computer Science, HIT." },
   ],
 };
