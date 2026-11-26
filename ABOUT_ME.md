@@ -26,10 +26,10 @@ Gaming, soccer (sports in general), music.
 The audience is everyone: recruiters, developers, founders, the curious.
 
 ## Taste
-- Maximal: crazy, creative, as animated as possible, and **fast**, with smooth transitions and jaw-drop moments.
+- **Minimal and luxurious, in the Apple style** (changed on 2026-11-26; the earlier maximal "ASAF.EXE" game look was dropped). Expensive through restraint: few details, large type, generous space, smooth and slow motion.
 - A single page, English only.
 - Written **in the first person** ("I build…"). It's his page, so no "he".
-- Professional first, and genuinely funny: the jokes are the kind senior engineers grin at (git blame, on-call, prod, stack traces), not cringe. The reaction we want: "who is this creative, clever guy?"
+- Professional first. Humor stays, but it's dry and rare: one quiet line, not a running gag.
 
 ## Lore (generated, the voice of the site)
 - I build products end to end: UI, API, database, and the AI on top. Party size: 1.
@@ -38,10 +38,10 @@ The audience is everyone: recruiters, developers, founders, the curious.
 - Sanity check: FAILED. Continuing anyway.
 
 ## Project slots (placeholders, Asaf fills these in)
-| Codename | Pitch (draft) | Status |
+| Title | Pitch (draft) | Status |
 |---|---|---|
-| OVERCLOCK | An AI agent that runs your dev workflow while you sleep | LOCKED |
-| SIGNAL//NOISE | Real-time pipeline that turns messy data into decisions | LOCKED |
-| NULLPOINTER FC | Soccer analytics + ML: who should've scored | LOCKED |
+| Overclock | An AI agent that runs your dev workflow while you sleep | Coming soon |
+| Signal / Noise | Real-time pipeline that turns messy data into decisions | Coming soon |
+| Nullpointer FC | Soccer analytics + ML: who should have scored | Coming soon |
 
-Edit `src/data/levels.ts` to fill these in (title, blurb, tags, links, status).
+Edit `work` in `src/data/profile.ts` to fill these in (title, line, tags, links, status).
